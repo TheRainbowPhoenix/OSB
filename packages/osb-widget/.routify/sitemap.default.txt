@@ -1,5 +1,0 @@
-/
-/[apiKey]/index
-/hello-world
-/index
-/test
