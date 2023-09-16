@@ -5,9 +5,9 @@ import {
   type DayPrice,
   type DayStatus,
   type MonthlyPrice,
-} from '@namastay/constants';
-import format from 'date-fns/format';
-import isBefore from 'date-fns/isBefore';
+} from "@namastay/constants";
+import format from "date-fns/format";
+import isBefore from "date-fns/isBefore";
 
 export const getPriceByDateAndCurrency = ({
   date,
@@ -18,7 +18,7 @@ export const getPriceByDateAndCurrency = ({
   prices: MonthlyPrice[];
   currencyCode: CurrencyCode;
 }): DayPrice | null => {
-  const formattedDate = format(date, DATE_FORMATTING_TABLE['yyyy-MM-dd']);
+  const formattedDate = format(date, DATE_FORMATTING_TABLE["yyyy-MM-dd"]);
 
   const reducedPrices = prices.reduce<DayPrice[]>((acc, price) => {
     if (price.currencyCode === currencyCode) {
@@ -43,7 +43,7 @@ export const getPriceByDateAndCurrency = ({
 };
 
 export const getIsoDateFormat = (date: Date): string =>
-  format(date, 'yyyy-MM-dd');
+  format(date, "yyyy-MM-dd");
 
 export const getCalendarIsoDateFormat = (dates: {
   startDate: Date;
@@ -78,7 +78,7 @@ export const getDisabledDays = ({
         allPrices?.[index - 1]?.status === CALENDAR_DAY_STATUSES.CLOSED ?? true;
       const isEndDay =
         endDate && day.date
-          ? day.date === format(endDate, 'yyyy-MM-dd')
+          ? day.date === format(endDate, "yyyy-MM-dd")
           : false;
       const isPreviousDayThanStartDate = startDate
         ? isBefore(new Date(day.date), startDate)
@@ -105,23 +105,25 @@ export const getConstrainForSpecificDate = (
     (price) => price.year === year && price.month === month
   );
 
-  if (typeof pricesByMonthAndYear === 'undefined') {
+  if (typeof pricesByMonthAndYear === "undefined") {
     return null;
   }
 
-  const calendarDay = pricesByMonthAndYear.dataSet.find((calendarPrices) => {
-    const formattedDate = format(date, DATE_FORMATTING_TABLE['yyyy-MM-dd']);
-    return calendarPrices.date === formattedDate;
-  });
+  const calendarDay = pricesByMonthAndYear.dataSet.find(
+    (calendarPrices: DayPrice) => {
+      const formattedDate = format(date, DATE_FORMATTING_TABLE["yyyy-MM-dd"]);
+      return calendarPrices.date === formattedDate;
+    }
+  );
 
-  if (typeof calendarDay === 'undefined') {
+  if (typeof calendarDay === "undefined") {
     return null;
   }
 
   return {
     status: calendarDay.status,
     quantity:
-      typeof calendarDay.quantity === 'string'
+      typeof calendarDay.quantity === "string"
         ? parseInt(calendarDay.quantity, 10)
         : 0,
   };
