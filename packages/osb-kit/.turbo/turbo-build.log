@@ -5,68 +5,68 @@
 
 [36mvite v4.4.5 [32mbuilding SSR bundle for production...[36m[39m
 transforming...
-02:44:52 [vite-plugin-svelte] /src/routes/+page.svelte:34:1 Unused CSS selector "html"
+02:55:58 [vite-plugin-svelte] /src/routes/+page.svelte:34:1 Unused CSS selector "html"
 32: 
 33: <style>
 34:   html {
       ^
 35:     -webkit-font-smoothing: antialiased;
 36:     -moz-osx-font-smoothing: grayscale;
-02:44:52 [vite-plugin-svelte] /src/routes/+page.svelte:47:1 Unused CSS selector "strong"
+02:55:58 [vite-plugin-svelte] /src/routes/+page.svelte:47:1 Unused CSS selector "strong"
 45:   }
 46: 
 47:   strong,
       ^
 48:   b {
 49:     font-weight: 700;
-02:44:52 [vite-plugin-svelte] /src/routes/+page.svelte:48:1 Unused CSS selector "b"
+02:55:58 [vite-plugin-svelte] /src/routes/+page.svelte:48:1 Unused CSS selector "b"
 46: 
 47:   strong,
 48:   b {
       ^
 49:     font-weight: 700;
 50:   }
-02:44:52 [vite-plugin-svelte] /src/routes/+page.svelte:52:1 Unused CSS selector "body"
+02:55:58 [vite-plugin-svelte] /src/routes/+page.svelte:52:1 Unused CSS selector "body"
 50:   }
 51: 
 52:   body {
       ^
 53:     margin: 0;
 54:     color: rgba(0, 0, 0, 0.87);
-02:44:52 [vite-plugin-svelte] /src/routes/+page.svelte:64:2 Unused CSS selector "body"
+02:55:58 [vite-plugin-svelte] /src/routes/+page.svelte:64:2 Unused CSS selector "body"
 62: 
 63:   @media print {
 64:     body {
         ^
 65:       background-color: #fff;
 66:     }
-02:44:52 [vite-plugin-svelte] /src/routes/+page.svelte:69:1 Unused CSS selector "body::backdrop"
+02:55:58 [vite-plugin-svelte] /src/routes/+page.svelte:69:1 Unused CSS selector "body::backdrop"
 67:   }
 68: 
 69:   body::backdrop {
       ^
 70:     background-color: #fff;
 71:   }
-02:44:53 [vite-plugin-svelte] /src/lib/components/templates/LayoutDefault.svelte:7:11 LayoutDefault has unused export property 'footerProps'. If it is for external reference only, please consider using `export const footerProps`
+02:55:58 [vite-plugin-svelte] /src/lib/components/templates/LayoutDefault.svelte:7:11 LayoutDefault has unused export property 'footerProps'. If it is for external reference only, please consider using `export const footerProps`
  5: export let mainProps = {};
  6: export let headerProps = {};
  7: export let footerProps = {};
                ^
  8: export let isLoading = false;
  9: export let showError = false;
-02:44:53 [vite-plugin-svelte] /src/lib/components/templates/LayoutDefault.svelte:10:11 LayoutDefault has unused export property 'footer'. If it is for external reference only, please consider using `export const footer`
+02:55:58 [vite-plugin-svelte] /src/lib/components/templates/LayoutDefault.svelte:10:11 LayoutDefault has unused export property 'footer'. If it is for external reference only, please consider using `export const footer`
  8: export let isLoading = false;
  9: export let showError = false;
 10: export let footer = null;
                ^
 11: export let withPadding = true;
 12: let ref;
-02:44:53 [vite-plugin-svelte] /src/lib/components/atoms/icons/MdCloseIcon.svelte:1:29 MdCloseIcon has unused export property 'size'. If it is for external reference only, please consider using `export const size`
+02:55:58 [vite-plugin-svelte] /src/lib/components/atoms/icons/HamburgerIcon.svelte:1:29 HamburgerIcon has unused export property 'size'. If it is for external reference only, please consider using `export const size`
 1: <script lang="ts">export let size = 20;
                                 ^
 2: </script>
 3: 
-02:44:53 [vite-plugin-svelte] /src/lib/components/atoms/icons/HamburgerIcon.svelte:1:29 HamburgerIcon has unused export property 'size'. If it is for external reference only, please consider using `export const size`
+02:55:58 [vite-plugin-svelte] /src/lib/components/atoms/icons/MdCloseIcon.svelte:1:29 MdCloseIcon has unused export property 'size'. If it is for external reference only, please consider using `export const size`
 1: <script lang="ts">export let size = 20;
                                 ^
 2: </script>
@@ -76,68 +76,68 @@ rendering chunks...
 
 [36mvite v4.4.5 [32mbuilding for production...[36m[39m
 transforming...
-02:44:56 [vite-plugin-svelte] /src/routes/+page.svelte:34:1 Unused CSS selector "html"
+02:56:01 [vite-plugin-svelte] /src/routes/+page.svelte:34:1 Unused CSS selector "html"
 32: 
 33: <style>
 34:   html {
       ^
 35:     -webkit-font-smoothing: antialiased;
 36:     -moz-osx-font-smoothing: grayscale;
-02:44:56 [vite-plugin-svelte] /src/routes/+page.svelte:47:1 Unused CSS selector "strong"
+02:56:01 [vite-plugin-svelte] /src/routes/+page.svelte:47:1 Unused CSS selector "strong"
 45:   }
 46: 
 47:   strong,
       ^
 48:   b {
 49:     font-weight: 700;
-02:44:56 [vite-plugin-svelte] /src/routes/+page.svelte:48:1 Unused CSS selector "b"
+02:56:01 [vite-plugin-svelte] /src/routes/+page.svelte:48:1 Unused CSS selector "b"
 46: 
 47:   strong,
 48:   b {
       ^
 49:     font-weight: 700;
 50:   }
-02:44:56 [vite-plugin-svelte] /src/routes/+page.svelte:52:1 Unused CSS selector "body"
+02:56:01 [vite-plugin-svelte] /src/routes/+page.svelte:52:1 Unused CSS selector "body"
 50:   }
 51: 
 52:   body {
       ^
 53:     margin: 0;
 54:     color: rgba(0, 0, 0, 0.87);
-02:44:56 [vite-plugin-svelte] /src/routes/+page.svelte:64:2 Unused CSS selector "body"
+02:56:01 [vite-plugin-svelte] /src/routes/+page.svelte:64:2 Unused CSS selector "body"
 62: 
 63:   @media print {
 64:     body {
         ^
 65:       background-color: #fff;
 66:     }
-02:44:56 [vite-plugin-svelte] /src/routes/+page.svelte:69:1 Unused CSS selector "body::backdrop"
+02:56:01 [vite-plugin-svelte] /src/routes/+page.svelte:69:1 Unused CSS selector "body::backdrop"
 67:   }
 68: 
 69:   body::backdrop {
       ^
 70:     background-color: #fff;
 71:   }
-02:44:56 [vite-plugin-svelte] /src/lib/components/templates/LayoutDefault.svelte:7:11 LayoutDefault has unused export property 'footerProps'. If it is for external reference only, please consider using `export const footerProps`
+02:56:02 [vite-plugin-svelte] /src/lib/components/templates/LayoutDefault.svelte:7:11 LayoutDefault has unused export property 'footerProps'. If it is for external reference only, please consider using `export const footerProps`
  5: export let mainProps = {};
  6: export let headerProps = {};
  7: export let footerProps = {};
                ^
  8: export let isLoading = false;
  9: export let showError = false;
-02:44:56 [vite-plugin-svelte] /src/lib/components/templates/LayoutDefault.svelte:10:11 LayoutDefault has unused export property 'footer'. If it is for external reference only, please consider using `export const footer`
+02:56:02 [vite-plugin-svelte] /src/lib/components/templates/LayoutDefault.svelte:10:11 LayoutDefault has unused export property 'footer'. If it is for external reference only, please consider using `export const footer`
  8: export let isLoading = false;
  9: export let showError = false;
 10: export let footer = null;
                ^
 11: export let withPadding = true;
 12: let ref;
-02:44:56 [vite-plugin-svelte] /src/lib/components/atoms/icons/HamburgerIcon.svelte:1:29 HamburgerIcon has unused export property 'size'. If it is for external reference only, please consider using `export const size`
+02:56:02 [vite-plugin-svelte] /src/lib/components/atoms/icons/HamburgerIcon.svelte:1:29 HamburgerIcon has unused export property 'size'. If it is for external reference only, please consider using `export const size`
 1: <script lang="ts">export let size = 20;
                                 ^
 2: </script>
 3: 
-02:44:56 [vite-plugin-svelte] /src/lib/components/atoms/icons/MdCloseIcon.svelte:1:29 MdCloseIcon has unused export property 'size'. If it is for external reference only, please consider using `export const size`
+02:56:02 [vite-plugin-svelte] /src/lib/components/atoms/icons/MdCloseIcon.svelte:1:29 MdCloseIcon has unused export property 'size'. If it is for external reference only, please consider using `export const size`
 1: <script lang="ts">export let size = 20;
                                 ^
 2: </script>
@@ -149,21 +149,21 @@ computing gzip size...
 [2m.svelte-kit/output/client/[22m[32mvite-manifest.json                            [39m[1m[2m 4.01 kB[22m[1m[22m[2m │ gzip:  0.64 kB[22m
 [2m.svelte-kit/output/client/[22m[35m_app/immutable/assets/2.4e2fc2e7.css          [39m[1m[2m 0.08 kB[22m[1m[22m[2m │ gzip:  0.07 kB[22m
 [2m.svelte-kit/output/client/[22m[35m_app/immutable/assets/0.ae99c80f.css          [39m[1m[2m10.71 kB[22m[1m[22m[2m │ gzip:  3.17 kB[22m
-[2m.svelte-kit/output/client/[22m[36m_app/immutable/chunks/stores.3f805e92.js      [39m[1m[2m 0.24 kB[22m[1m[22m[2m │ gzip:  0.17 kB[22m
+[2m.svelte-kit/output/client/[22m[36m_app/immutable/chunks/stores.1a1d4576.js      [39m[1m[2m 0.24 kB[22m[1m[22m[2m │ gzip:  0.17 kB[22m
 [2m.svelte-kit/output/client/[22m[36m_app/immutable/chunks/control.f5b05b5f.js     [39m[1m[2m 0.25 kB[22m[1m[22m[2m │ gzip:  0.18 kB[22m
 [2m.svelte-kit/output/client/[22m[36m_app/immutable/chunks/index.4425af10.js       [39m[1m[2m 0.45 kB[22m[1m[22m[2m │ gzip:  0.32 kB[22m
-[2m.svelte-kit/output/client/[22m[36m_app/immutable/nodes/1.541719a1.js            [39m[1m[2m 0.84 kB[22m[1m[22m[2m │ gzip:  0.52 kB[22m
+[2m.svelte-kit/output/client/[22m[36m_app/immutable/nodes/1.9781a03f.js            [39m[1m[2m 0.84 kB[22m[1m[22m[2m │ gzip:  0.52 kB[22m
 [2m.svelte-kit/output/client/[22m[36m_app/immutable/chunks/each.988ea064.js        [39m[1m[2m 0.86 kB[22m[1m[22m[2m │ gzip:  0.53 kB[22m
 [2m.svelte-kit/output/client/[22m[36m_app/immutable/chunks/scheduler.676eae0f.js   [39m[1m[2m 2.36 kB[22m[1m[22m[2m │ gzip:  1.11 kB[22m
-[2m.svelte-kit/output/client/[22m[36m_app/immutable/chunks/singletons.662b957b.js  [39m[1m[2m 2.46 kB[22m[1m[22m[2m │ gzip:  1.26 kB[22m
+[2m.svelte-kit/output/client/[22m[36m_app/immutable/chunks/singletons.d7f04d72.js  [39m[1m[2m 2.46 kB[22m[1m[22m[2m │ gzip:  1.26 kB[22m
 [2m.svelte-kit/output/client/[22m[36m_app/immutable/nodes/3.0736e02f.js            [39m[1m[2m 2.50 kB[22m[1m[22m[2m │ gzip:  1.27 kB[22m
 [2m.svelte-kit/output/client/[22m[36m_app/immutable/nodes/0.38ba9477.js            [39m[1m[2m 3.09 kB[22m[1m[22m[2m │ gzip:  1.57 kB[22m
-[2m.svelte-kit/output/client/[22m[36m_app/immutable/entry/app.6789dd38.js          [39m[1m[2m 6.44 kB[22m[1m[22m[2m │ gzip:  2.45 kB[22m
+[2m.svelte-kit/output/client/[22m[36m_app/immutable/entry/app.27259bd5.js          [39m[1m[2m 6.44 kB[22m[1m[22m[2m │ gzip:  2.44 kB[22m
 [2m.svelte-kit/output/client/[22m[36m_app/immutable/chunks/index.707ede26.js       [39m[1m[2m 7.46 kB[22m[1m[22m[2m │ gzip:  3.07 kB[22m
-[2m.svelte-kit/output/client/[22m[36m_app/immutable/nodes/2.246d6b51.js            [39m[1m[2m12.03 kB[22m[1m[22m[2m │ gzip:  4.64 kB[22m
-[2m.svelte-kit/output/client/[22m[36m_app/immutable/entry/start.e24e5af1.js        [39m[1m[2m24.59 kB[22m[1m[22m[2m │ gzip:  9.70 kB[22m
+[2m.svelte-kit/output/client/[22m[36m_app/immutable/nodes/2.914a9384.js            [39m[1m[2m12.03 kB[22m[1m[22m[2m │ gzip:  4.64 kB[22m
+[2m.svelte-kit/output/client/[22m[36m_app/immutable/entry/start.6025e2e3.js        [39m[1m[2m24.59 kB[22m[1m[22m[2m │ gzip:  9.70 kB[22m
 [2m.svelte-kit/output/client/[22m[36m_app/immutable/chunks/index.3ab4bbf3.js       [39m[1m[2m64.72 kB[22m[1m[22m[2m │ gzip: 19.43 kB[22m
-[32m✓ built in 1.90s[39m
+[32m✓ built in 1.73s[39m
 [2m.svelte-kit/output/server/[22m[32mvite-manifest.json                          [39m[1m[2m  3.01 kB[22m[1m[22m
 [2m.svelte-kit/output/server/[22m[35m_app/immutable/assets/_page.4e2fc2e7.css    [39m[1m[2m  0.08 kB[22m[1m[22m
 [2m.svelte-kit/output/server/[22m[35m_app/immutable/assets/_layout.163bb7ca.css  [39m[1m[2m 10.71 kB[22m[1m[22m
@@ -188,4 +188,4 @@ Run npm run preview to preview your production build locally.
 > Using @sveltejs/adapter-static
   Wrote site to "build"
   ✔ done
-[32m✓ built in 8.10s[39m
+[32m✓ built in 7.85s[39m
