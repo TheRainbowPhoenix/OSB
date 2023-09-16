@@ -10,6 +10,7 @@
     "i-const": "cd packages/namastay-constants && pnpm i",
     "i-core": "cd packages/namastay-core && pnpm i",
     "i-utils": "cd packages/namastay-utils && pnpm i",
+    "i-widget": "cd packages/osb-widget  && pnpm i",
     "i-kit": "cd packages/osb-kit  && pnpm i",
     "build": "turbo run build",
     "watch": "turbo run watch",
