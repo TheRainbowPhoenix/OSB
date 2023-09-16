@@ -1,14 +1,9 @@
-import * as _default from '../src/routes/_module.svelte'
-import * as _default_hello_world_md from '../src/routes/hello-world.md'
-import * as _default_index_md from '../src/routes/index.md'
-import * as _default_test_md from '../src/routes/test.md'
-import * as _default__apiKey__index_svelte from '../src/routes/[apiKey]/index.svelte'
+
 
 export default {
   "meta": {},
   "id": "_default",
-  "module": () => _default,
-  "rootName": "default",
+  "name": "",
   "file": {
     "path": "src/routes/_module.svelte",
     "dir": "src/routes",
@@ -16,11 +11,14 @@ export default {
     "ext": ".svelte",
     "name": "_module"
   },
+  "asyncModule": () => import('../src/routes/_module.svelte'),
+  "rootName": "default",
   "routifyDir": import.meta.url,
   "children": [
     {
       "meta": {
-        "dynamic": true
+        "dynamic": true,
+        "order": false
       },
       "id": "_default__apiKey_",
       "name": "[apiKey]",
@@ -34,10 +32,12 @@ export default {
       },
       "children": [
         {
-          "meta": {},
+          "meta": {
+            "isDefault": true,
+            "user": "test"
+          },
           "id": "_default__apiKey__index_svelte",
           "name": "index",
-          "module": () => _default__apiKey__index_svelte,
           "file": {
             "path": "src/routes/[apiKey]/index.svelte",
             "dir": "src/routes/[apiKey]",
@@ -45,6 +45,7 @@ export default {
             "ext": ".svelte",
             "name": "index"
           },
+          "asyncModule": () => import('../src/routes/[apiKey]/index.svelte'),
           "children": []
         }
       ]
@@ -53,7 +54,6 @@ export default {
       "meta": {},
       "id": "_default_hello_world_md",
       "name": "hello-world",
-      "module": () => _default_hello_world_md,
       "file": {
         "path": "src/routes/hello-world.md",
         "dir": "src/routes",
@@ -61,13 +61,15 @@ export default {
         "ext": ".md",
         "name": "hello-world"
       },
+      "asyncModule": () => import('../src/routes/hello-world.md'),
       "children": []
     },
     {
-      "meta": {},
+      "meta": {
+        "isDefault": true
+      },
       "id": "_default_index_md",
       "name": "index",
-      "module": () => _default_index_md,
       "file": {
         "path": "src/routes/index.md",
         "dir": "src/routes",
@@ -75,13 +77,13 @@ export default {
         "ext": ".md",
         "name": "index"
       },
+      "asyncModule": () => import('../src/routes/index.md'),
       "children": []
     },
     {
       "meta": {},
       "id": "_default_test_md",
       "name": "test",
-      "module": () => _default_test_md,
       "file": {
         "path": "src/routes/test.md",
         "dir": "src/routes",
@@ -89,6 +91,24 @@ export default {
         "ext": ".md",
         "name": "test"
       },
+      "asyncModule": () => import('../src/routes/test.md'),
+      "children": []
+    },
+    {
+      "meta": {
+        "dynamic": true,
+        "dynamicSpread": true,
+        "order": false
+      },
+      "name": "[...404]",
+      "file": {
+        "path": ".routify/components/[...404].svelte",
+        "dir": ".routify/components",
+        "base": "[...404].svelte",
+        "ext": ".svelte",
+        "name": "[...404]"
+      },
+      "asyncModule": () => import('./components/[...404].svelte'),
       "children": []
     }
   ]

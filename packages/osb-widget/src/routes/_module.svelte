@@ -1,16 +1,16 @@
 <script>
-    import { url } from '@roxi/routify'
+  import { url, node } from "@roxi/routify";
 
-    // returns /hello?theme=dark
-    $: url1 = $url('/[apiKey]', {
-        apiKey: 'client01',
-        theme: 'dark',
-    })
+  // returns /hello?theme=dark
+  $: url1 = $url("/[apiKey]", {
+    apiKey: "client01",
+    theme: "dark",
+  });
 
-    $: url2 = $url('/[apiKey]', {
-        apiKey: 'client02',
-        theme: 'light',
-    })
+  $: url2 = $url("/[apiKey]", {
+    apiKey: "client02",
+    theme: "light",
+  });
 </script>
 
 <a href="/">Home</a>

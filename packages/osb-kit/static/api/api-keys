@@ -1,0 +1,24 @@
+{
+	"apiKeys": [
+		{
+			"type": "hotel",
+			"name": "SynXis TEST",
+			"value": "0635c94b181c9820f77017eebbef82e7f548662f420016d1"
+		},
+		{
+			"type": "hotel",
+			"name": "D-EDGE TEST",
+			"value": "30d84259e36587f5160397d2a2ccb3f7b0cf202c8bcd5ad1"
+		},
+		{
+			"type": "hotel",
+			"name": "Reservit TEST",
+			"value": "a4b835e044b132ef6de5f58906647a9189bf5cdb73a1eb81"
+		},
+		{
+			"type": "hotel",
+			"name": "Mews TEST",
+			"value": "9833254257f9c74e221a727e7398f920b29092ec03c12957"
+		}
+	]
+}

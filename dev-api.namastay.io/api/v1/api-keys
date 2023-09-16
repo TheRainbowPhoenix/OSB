@@ -1,0 +1,40 @@
+{
+  "apiKeys":
+    [
+      {
+        "type": "hotel",
+        "name": "SynXis Test Hotel Api Key",
+        "value": "1091e9de488e4f319e35369710fb823ba2f1f0e06c67377d",
+      },
+      {
+        "type": "hotel",
+        "name": "D-EDGE Namastay Hotel",
+        "value": "4f874be898b44b70b9f8f76c6fc7ea85a2s35e106c67377d",
+      },
+      {
+        "type": "hotel",
+        "name": "Paradise Cove Api key",
+        "value": "b6aa4546ae404c5fad48b0e2ae167be7exupl941yhqmiera",
+      },
+      {
+        "type": "hotel",
+        "name": "Hotel le ministre",
+        "value": "5860cba3c9f34f6c9a7d28684f0a94e9a2s35e106c67377g",
+      },
+      {
+        "type": "hotel",
+        "name": "Le Val Thorens Api Key",
+        "value": "6c44f8e18a0f456a843e81ed15d080c3domq15k8o9ueig0t",
+      },
+      {
+        "type": "hotel",
+        "name": "Château Voltaire",
+        "value": "f83b64815a4b482fb879cef066649b7esig1cbm1use1d55o",
+      },
+      {
+        "type": "hotel",
+        "name": "Grand Pigalle Api Key",
+        "value": "cc9b60c5a4894bbe99e73c33e7ac42d1f6155846cbc2cfca",
+      },
+    ],
+}
